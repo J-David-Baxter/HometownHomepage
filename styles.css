@@ -1,0 +1,124 @@
+body {
+    background: #f1faee;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 1000px;
+}
+
+.hero-section {
+    background-image: url("./images/Quaker_Hill_Historic_District_-_166_Old_Norwich_Rd\,_New_London_County_CT.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.hero-txt-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.hero-title {
+    background: #1D3557;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.hero-subtext {
+    background: #457B9D;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.activities-section {
+    background: #A7DCBB;
+    height: 380px;
+    margin-top: -30px;
+}
+
+.activities-title {
+    color: #1D3557;
+    padding: 50px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.activity-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 198px;
+}
+
+.activity-img {
+   width: 100px;
+   height: 100px; 
+   border-radius: 50%;
+}
+
+.activity-title {
+    color: #1D3557;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.activity-subtext {
+    color: #1D3557;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.guide-card {
+    width: 400px;
+    height: 300px;
+    background-color: #A8DADC;
+    margin: 50px auto;
+    box-shadow: 0px 6px 0px #1D3557;
+    border-radius: 10px;
+}
+
+.guide-content-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 400px;
+    height: 300px;
+}
+
+.guide-img {
+    width: 250px;
+    height: 200px;
+    margin: 23px 7px 23px 15px;
+}
+
+.guide-text-wrapper {
+    margin: 0 7px 0 0;
+    color: #1D3557;
+}
+
+.guide-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.guide-text {
+    
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
